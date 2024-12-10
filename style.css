@@ -1,0 +1,202 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  width: 100%;
+  height: 100vh;
+  background-image: url('https://th.bing.com/th?id=OIP.fZ8vJy-GWQoQmeBFuaHDYAHaEo&w=316&h=197&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2');
+  background-size: cover; /* Ajusta el tamaño de la imagen */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  background-position: center; /* Centra la imagen */
+}
+
+figure {
+  text-align: center;
+}
+
+img {
+  position: relative;
+  top: 50px;
+  margin: 20px;
+  width: 10%;
+  border: solid 2px;
+  background-color: rgb(10, 97, 10);
+  border-radius: 20px;
+  padding: 6px;
+}
+
+.head {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 80%;
+  min-width: 320px;
+  max-width: 500px;
+  font-size: 1.6rem;
+  text-align: center;
+  border: solid 2px green;
+  background-color: aquamarine;
+  margin: 0 auto;
+  min-height: 50vh;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.name {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  margin: 20px auto;
+  gap: 6px
+}
+
+.name p {
+  text-decoration: solid;
+}
+
+.venasour {
+  color: rgb(234, 236, 234);
+  width: 80px;
+  border: solid 2px;
+  border-radius: 6px;
+  background-color: rgb(12, 59, 211);
+  /*margin: 20px;*/
+  padding: 2px;
+}
+
+.tipo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  margin: 20px auto;
+  gap: 14px;
+}
+
+.planta {
+  color: rgb(234, 236, 234);
+  width: 60px;
+  border: solid 2px;
+  border-radius: 6px;
+  background-color: green;
+  /*margin: 20px;*/
+  padding: 2px;
+}
+
+.venon {
+  color: azure;
+  width: 86px;
+  border: solid 2px;
+  border-radius: 6px;
+  background-color: purple;
+  /*margin: 20px;*/
+  padding: 2px;
+}
+
+.peso {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  margin: 20px auto;
+  gap: 6px;
+}
+
+.kilog {
+  color: azure;
+  width: 72px;
+  border: solid 2px;
+  border-radius: 6px;
+  background-color: rgb(216, 96, 16);
+  /*margin: 20px;*/
+  padding: 2px;
+}
+
+.habilidades {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  margin: 20px auto;
+  gap: 6px;
+}
+
+.espesura {
+  color: rgb(234, 236, 234);
+  width: 80px;
+  border: solid 2px;
+  border-radius: 6px;
+  background-color: green;
+  /*margin: 20px;*/
+  padding: 2px;
+}
+
+.clorofila {
+  color: rgb(234, 236, 234);
+  width: 72px;
+  border: solid 2px;
+  border-radius: 6px;
+  background-color: green;
+  /*margin: 20px;*/
+  padding: 2px; 
+}
+
+.debilidades {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  margin: 20px auto;
+  gap: 6px
+}
+
+.fuego {
+  color: rgb(234, 236, 234);
+  width: 52px;
+  border: solid 2px;
+  border-radius: 6px;
+  background-color: rgb(196, 39, 18);
+ /* margin: 20px;*/
+  padding: 2px;
+}
+
+.electrico {
+  color: rgb(234, 236, 234);
+  width: 74px;
+  border: solid 2px;
+  border-radius: 6px;
+  background-color: rgb(170, 160, 20);
+  /*margin: 20px;*/
+  padding: 2px;
+}
+
+.psitico {
+  color: rgb(234, 236, 234);
+  width: 60px;
+  border: solid 2px;
+  border-radius: 6px;
+  background-color: rgb(24, 17, 85);
+ /* margin: 20px;*/
+  padding: 2px;
+}
+
+.descripcion {
+  margin-top: 30px;
+}
+ .description {
+  color: rgb(234, 236, 234);
+  width: 100%;
+  border: solid 2px;
+  border-radius: 6px;
+  background-color: rgb(10, 97, 10);
+ /* margin: 20px;*/
+  padding: 6px;
+ }
+
+.descripcion h3 {
+  margin: 6px;
+}
+
+@media (max-width: 620px) {
+  .head {
+    width: 90%;
+  }
+}
